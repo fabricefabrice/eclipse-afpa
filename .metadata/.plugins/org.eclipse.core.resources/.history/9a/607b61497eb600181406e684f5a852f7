@@ -1,0 +1,17 @@
+
+public class SwitchCondition {
+	
+	int entier = 15 ;
+	
+	switch (entier) {
+	case 10 ;
+	 System.out.println("La variable entier = 10") ;
+	case 15 ;
+	  System.out.println("La variable entier = 15") ;
+	case 13 ;
+	 System.out.println("La variable entier = 13") ;
+	 default ;
+	 System.out.println("Afficher par defaut") ;
+	}
+
+}

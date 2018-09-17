@@ -1,0 +1,40 @@
+
+public class ExoOperateurLogique {
+
+	public static void main(String[] args) {
+	
+		float noteJava = 10.5f ; 
+		float noteHtml = 13.5f ; 
+		float noteJavascript = 9.5f ; 
+		float noteCss = 8.5f ;
+		
+		float moyenne = (noteJava + noteHtml + noteJavascript + noteCss) / 4; 
+		
+		int coefJava = 3 ; 
+		int coefHtml = 2; 
+		int coefJavascript = 3 ; 
+		int coefCSs = 1;
+		
+		float moyenneGenerale = ((noteJava * coefJava ) 
+				+ (noteHtml * coefHtml) 
+				+ (noteJavascript * coefJavascript) 
+				+ (noteCss * coefCSs)) 
+					/ (coefJava + coefHtml + coefJavascript + coefCSs);
+		
+		if(moyenne >10 || moyenneGenerale >10) {
+			System.out.println("Vous avez la moyenne");
+		}
+		
+		if(moyenne >10 && noteJava >10) {
+			System.out.println("Vous avez eu la moyenne et une bonne note en Java");
+		}
+		
+		if(noteCss >10 || noteHtml  >10 || noteJavascipt > 10)  {
+			System.out.println("Vous avez eu une bonne note en html ou Css ou Javascript");
+		} 
+			
+		}
+
+	}
+
+}

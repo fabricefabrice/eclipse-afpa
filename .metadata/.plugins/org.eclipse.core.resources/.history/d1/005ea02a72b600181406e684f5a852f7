@@ -1,0 +1,19 @@
+
+public class IfElseElseCondition {
+
+	public static void main(String[] args) {
+	
+		// Declaration
+		int note ;
+		
+		//Affectation
+		note = 11 ;
+
+		
+		if(note > 10)  {
+		System.out.println("La note est >= 10") ;
+		}
+
+	}
+
+}

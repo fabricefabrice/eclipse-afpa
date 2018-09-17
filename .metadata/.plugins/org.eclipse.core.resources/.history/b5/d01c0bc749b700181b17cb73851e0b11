@@ -1,0 +1,11 @@
+
+public class LectureClavier {
+
+	public static void main(String[] args) {
+		
+		scanner sc = new Scanner(System.in) ;
+		System.out.print(DEBUT);
+
+	}
+
+}

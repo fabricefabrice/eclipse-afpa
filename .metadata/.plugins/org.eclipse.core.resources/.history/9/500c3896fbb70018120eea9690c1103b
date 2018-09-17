@@ -1,0 +1,30 @@
+
+public class Tableau1D {
+
+	public static void main(String[] args) {
+		
+		int i 10 ;
+		int entierPremiers []= {2, 3, 4, 5, 7, 11} ;
+		
+		int tailleTableau = entiersPremiers.length ;
+		System.out.println("La taille du tableau : " + tailleTableau);
+		
+		System.out.println("Le premier element du tableau : " + entierPremiers[0]) ;
+		System.out.println("Le 1eme element du tableau : " + entierPremiers[1]) ;
+		System.out.println("Le 2emeelement du tableau : " + entierPremiers[2]) ;
+		System.out.println("Le 3emeelement du tableau : " + entierPremiers[3]) ;
+		System.out.println("Le 4emeelement du tableau : " + entierPremiers[4]) ;
+		System.out.println("Le 5emeelement du tableau : " + entierPremiers[5]) ;
+		System.out.println("Le 6emeelement du tableau : " + entierPremiers[6)) ;
+		System.out.println("Le 6emeelement du tableau : " + entierPremiers[7)) ;
+		System.out.println("Le 7emeelement du tableau : " + entierPremiers[8)) ;
+		
+		for ( int i = 0 ; i < entierPremiers.length ; i++) ;
+		System.out.println(entierPremier[i]) ;
+		
+		String chaines []  = {"Java" , "Html" , "CSS" , "Javascipt", "PHP"} ;
+		System.out.println("Matiere :" + chaines [i]);
+		
+		System.out.println("FIN") ;
+	}
+}

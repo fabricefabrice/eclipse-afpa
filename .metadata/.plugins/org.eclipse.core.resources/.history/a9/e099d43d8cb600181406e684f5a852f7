@@ -1,0 +1,21 @@
+
+public class OperateurLogique {
+
+	public static void main(String[] args) {
+		
+		float noteJava = 10.5f ;
+		float noteHtml = 19 f;
+		
+		boolean noteJavaSup = noteJava > 10 ;
+		System.out.println("noteJavaSup = " +noteJavaSup ) ;
+		boolean noteHtmlSup = noteHtml > 10 ;
+		System.out.println("noteHtmlSup = " +noteHtmlSup ) ;
+		
+		if(noteJavaSup && noteHtmlSup) {
+			System.out.println("Bravo");
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class exoconditionif {
+
+	public static void main(String[] args) {
+	
+		float note = 15 ;
+		int coef = 3 ;
+			float resultat = note * coef ;
+			
+		if (resultat <= 50)  {
+			System.out.println("resultat" + resultat) ;
+		}
+			
+		
+		
+	}}
+
+

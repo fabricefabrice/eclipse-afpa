@@ -1,0 +1,21 @@
+
+public class Condition {
+
+	public static void main(String[] args) {
+		
+		
+		int prix = 10 ;
+		
+		if (prix == 10) {
+			System.out.println("le prix = 10") ;
+	}
+			
+		
+			
+
+
+		
+		}
+
+	}
+

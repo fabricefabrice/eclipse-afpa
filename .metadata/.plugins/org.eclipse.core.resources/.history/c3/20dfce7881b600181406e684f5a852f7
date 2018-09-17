@@ -1,0 +1,23 @@
+
+public class ExoConditionSwitch {
+
+	public static void main(String[] args) {
+		
+		int mois = 1  ;
+		int mois = 2  ;
+		int mois = 3  ;
+		
+		switch (mois) {
+		case 1 ;
+		 System.out.println("janvier") ;
+		case 2 ;
+		  System.out.println("fevrier") ;
+		case 3 ;
+		 System.out.println("mars") ;
+		 default ;
+		 System.out.println("Afficher par defaut") ;
+		}
+	}
+	
+
+}

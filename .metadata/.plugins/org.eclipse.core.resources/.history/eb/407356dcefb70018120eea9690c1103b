@@ -1,0 +1,16 @@
+
+public class Tableau1D {
+
+	public static void main(String[] args) {
+		
+		int i 10 ;
+		int entierPremiers []= {2, 3, 4, 5, 7, 11} ;
+		
+		int tailleTableau = entiersPremiers.length ;
+		System.out.println("La taille du tableau : " + tailleTableau);
+		
+		System.out.println("Le premier element du tableau : " + entierPremiers[0]) ;
+		System.out.println("Le 2eme element du tableau : " + entierPremiers[1]) ;
+		System.out.println("Le 3emeelement du tableau : " + entierPremiers[3]) ;
+	}
+}

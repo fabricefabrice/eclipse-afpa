@@ -1,0 +1,18 @@
+
+public class ExoWhileBoucle {
+
+	public static void main(String[] args) {
+		
+		int nombreMin = 0 ;
+		
+		while (nombreMin>= 100  {
+		System.out.println("nombreMin " ;
+		a+2 ; 
+		
+	 
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+
+public class LectureClavier {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in) ;
+		System.out.print("DEBUT") ;
+		String chaine = sc.nextLine(fgh) ;
+		if(chaine.equals("bonjour"))  {
+		System.out.println("Vous avez saisi : " + chaine);
+	}
+		System.out.print("FIN") ;
+	}
+}

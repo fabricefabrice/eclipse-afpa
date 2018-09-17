@@ -1,0 +1,44 @@
+
+public class ExoTableauID {
+
+	public static void main(String[] args) {
+		
+		
+		String cours [] = {"Java" , "Html", "CSS", "Javascript", "PHP", "C++","NodeJS"}; 
+		
+		for (int i = 0; i < cours.length; i++) { 	
+		System.out.println(cours[i]) ;
+		}
+		
+		for (int i = 0; i < cours.length; i++) { 
+			System.out.print(cours [i] + ",") ; ;	
+		}
+		
+		for (int i = 0; i < cours.length; i++) { 	
+			System.out.println(cours[i] + "=10") ;
+			}
+		
+
+			
+		
+		
+		
+		
+		
+		
+		
+
+ 
+		 
+		
+		
+
+
+ 
+		 
+
+
+ 
+			}
+
+}

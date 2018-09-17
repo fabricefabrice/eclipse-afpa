@@ -1,0 +1,22 @@
+
+public class ExoVariable {
+
+	public static void main(String[] args) {
+
+	float note = 14.5f ;
+	int coef = 3 ;
+		float resultat = note * coef ;
+	System.out.println("Resultat = " + resultat ) ;
+	
+	note = 12
+			coef = 5
+			System.out.println("Resultat = " + resultat ) ;
+			
+				
+		
+		
+
+
+	}
+
+}
