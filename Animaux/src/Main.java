@@ -42,6 +42,7 @@ public class Main {
 
 		Animal monanimal = new Chien("chien sans nom", 10, 1, "gris", "Teckel") ;
 				System.out.println( monanimal.nom + "est de couleur : " + monanimal.couleur);
+			
 		
 
 		
