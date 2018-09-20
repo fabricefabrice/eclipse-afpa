@@ -1,33 +1,57 @@
-
 public class Ville {
 
-	String nom;
-	int nombrehabitants;
-	int sup;
 
-	public Ville()  {
-		System.out.println("Creation d'un objet de type Ville");
-	}
+
+	public String nom ;
+	public int nombreHabitants;
+	public int sup;
+	public boolean etatLumiere;
+	public int nombrehabitants;
+	
+
+
+	//Constructeur sans Params
+	public Ville() {}
+
+
 	//constructeur avec params
-	public Ville(String nomP, int nombrehabitantsP, int supP)  {
-	}
-	public Ville(String nom, int nombrehabitants) {
-		super();
-		this.nom = nom;
-		this.nombrehabitants = nombrehabitants;
-	}
-	public Ville(int nombrehabitants, int sup) {
-		super();
-		this.nombrehabitants = nombrehabitants;
-		this.sup = sup;
-	}
-public Ville(String nom, int nombrehabitants, int sup) {
-	super();
-	this.nom = nom;
-	this.nombrehabitants = nombrehabitants;
-	this.sup = sup;
-}
+	public Ville(String nomP, int nombreHabitantsP, int supP) {
 
-public void EteindreLesLumieres ()  {
-	System.out.println("Les lumieres de la ville" +nom +" sont eteintes");
+		System.out.println("Constructeur avec params ");
+
+		this.nom = nomP;
+		nombreHabitants = nombreHabitantsP;
+		sup = supP;	
+
+	}
+
+	public Ville(String nom, int nombreHabitants) {
+
+		this.nom = nom;
+		this.nombreHabitants = nombreHabitants;
+
+	}
+
+
+	public Ville(int nombreHabitants, int sup) {
+
+		super();
+		this.nombreHabitants = nombreHabitants;
+		this.sup = sup;
+
+	}
+
+
+	public void allumerLesLumieres() {
+		etatLumiere = true;
+
+	}
+
+	public void EteindreLesLumieres() {
+		etatLumiere = false;
+
+	}
+
+
+
 }

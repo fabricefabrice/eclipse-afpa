@@ -11,7 +11,6 @@ public class Main {
 		paris.sup = 100 ;
 
 		System.out.println("Traitement des donnees de la ville de Paris");
-
 		System.out.println("nom : " + paris.nom);
 		System.out.println("nombre d'habitants : "  + paris.nombrehabitants);
 		System.out.println("Superficie : "  + paris.sup) ;
@@ -23,18 +22,18 @@ public class Main {
 		marseille.sup = 95  ;
 
 		System.out.println("Traitement des donnees de la ville de Marseille");
-
 		System.out.println("nom : " + marseille.nom);
 		System.out.println("nombre d'habitants : "  + marseille.nombrehabitants)  ;
 		System.out.println("Superficie : "  + marseille.sup) ;
+
 
 		Ville liverpool = new Ville("Liverpool",  500, 50) ;
 		System.out.println("nom : " +liverpool.nom);
 		System.out.println("nombre d'habitants : "  + liverpool.nom);
 		System.out.println("Superficie : "  + liverpool.nom);
-		
-		System.out.println("-----------lille-----------");
 
+
+		System.out.println("-----------lille-----------");
 
 
 
